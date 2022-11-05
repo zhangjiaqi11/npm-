@@ -1,0 +1,9 @@
+/logs
+/node_modules
+/dist
+/lib
+/onlinedist
+/src/assets/js
+/package-lock.json
+.DS_Store
+.eslintrc.js

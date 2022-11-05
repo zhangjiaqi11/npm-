@@ -1,9 +1,7 @@
 <template>
   <div>
-    my-switch
-    <el-switch>
-      1111
-    </el-switch>
+    my-switch8765
+    <el-switch v-model="myValue" />
   </div>
 </template>
 <script>
@@ -19,6 +17,17 @@ export default {
     value: {
       default: true,
       type: Boolean
+    }
+  },
+  computed: {
+    myValue: {
+      get () {
+        return this.value
+      },
+      set (val) {
+        console.log(val)
+        this.$emit('update:value', val)
+      }
     }
   }
 }

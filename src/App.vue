@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <my-button />
-    <my-switch />
+    <my-switch :value.sync="value1" />
   </div>
 </template>
 
@@ -11,6 +11,11 @@ export default {
   name: 'App',
   components: {
     // MyButton
+  },
+  data () {
+    return {
+      value1: true
+    }
   }
 }
 </script>

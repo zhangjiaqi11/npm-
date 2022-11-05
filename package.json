@@ -1,15 +1,15 @@
 {
   "name": "zjq-components",
-  "version": "1.0.12",
-  "main": "src/components/index.js", 
-  "author": "zjq", 
-  "description": "基于element-ui实现的二次封装", 
-  "license": "MIT", 
+  "version": "1.0.14",
+  "main": "src/components/index.js",
+  "author": "zjq",
+  "description": "基于element-ui实现的二次封装",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name zjq-components --dest lib src/components/index.js" 
+    "lib": "vue-cli-service build --target lib --name zjq-components --dest lib src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
